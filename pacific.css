@@ -1,0 +1,139 @@
+/*
+NAME: Mohammed kabir
+DATE: 06/08/2022
+Hw #2
+Purpose: the purpose of this homework is to edit the css file only without touching the html file and 
+also to replicate the given style for the website 
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/*this code works for the setting up the background and body of the html*/
+body {
+    background: #00569f url(ptrbackground.jpg);
+	background-repeat: repeat-x;
+    margin: 0 auto; 
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 600px;
+	width: 90%;
+	align-self: center;
+}
+
+/*This code works for the header of the page and the background image of the header*/
+
+header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-color:  #000032;
+	background-position: right;
+	padding-left: 0px;
+}
+
+/* this code positioned the image and the paragraph text */
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+/* this code works for the styling of navigation link */
+nav ul
+{
+    font-size: 1.2em;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    background-color: #abd3ed;
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+} 
+
+#wrapper {
+
+	background-color: lightblue;
+	min-width: 600px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.resort {
+    font-weight: bold;
+    color: #5b7f9f;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #344873;
+}
+
+/* this code takes out the bullet points of the list items */
+nav li{
+	list-style-type: none;
+
+}
+
+/* this code is for styling for visited link */
+nav a:visited {
+	color: #344873;
+}
+/* this code is for styling for hover link */
+nav a:hover {
+	color: #FFFFFF;
+}
+a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+/* this is the code for styling headed of the file */
+h1 {
+	margin: 0 auto;
+	padding: 10px;
+	color: white;
+}
+
+
+h2 {
+
+	padding: 20px 0;
+    margin: 0;
+    color: #3399CC;
+}
+
+#content {
+	margin-left: 190px;
+	background-color: #ffffff;
+	padding: 0 20px 15px 30px;
+
+}
+
+#content > ul {
+    list-style: inside url('marker.gif');
+    padding: 0;
+    margin: 20px 0 20px 40px;
+}
+#contact {
+    font-size: 0.9em;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+
+/* This format the footer of the page */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	background-color: white;
+	padding: 20px;
+	padding-top: 40px;
+	margin-left: 190px;
+}
